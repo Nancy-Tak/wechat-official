@@ -1,0 +1,186 @@
+@fontSize-default:28px;
+//公共距离尺寸
+@gapSize-public: 30px;
+//默认文本色调
+@fontColor-default: rgba(102,102,102,1);
+
+:global{
+	html,body{
+		width:100%;
+		height:100%;
+        background-color: #EFEFF4 !important;
+	}
+	.clearfix:after {
+	  content: " ";
+	  display: block;
+	  clear: both;
+	  height: 0;
+	}
+	.clearfix {
+	  zoom: 1;
+	}
+
+	.inline-block{
+		display: inline-block;
+	}
+    .display-none{
+        display: none;
+    }
+
+    .display-none{
+        display: none;
+    }
+
+	.item{
+		float:left;
+		width:50%;
+		padding:30px 0;
+		min-height: 94px;
+		box-sizing: border-box;
+		border-bottom:1px solid #dedbd6;
+	}
+
+	.firstContainer{
+		border-top:none;
+		margin-top: 0;
+	}
+
+	.title{
+		padding:30px 0 30px 77px;
+		box-sizing: border-box;
+		border-bottom:1px solid #dedbd6;
+		font-size: 120%;
+	}
+
+	.banxin{
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+
+	.navBar{
+		background-color: rgba(51, 51, 51, 1);
+	}
+
+
+	//表格
+	.key{
+		float:left;
+		width:50%;
+		color:#999;
+		padding-left: 77px;
+		box-sizing: border-box;
+	}
+
+	.val{
+		float:left;
+		width:50%;
+	}
+
+    .titleSize{
+        font-size: 28px !important;
+    }
+	//margin
+	.fn-ma-50{
+		margin:50px;
+	}
+    .fn-ma-15{
+        margin:15px;
+    }
+    .fn-mt-30{
+        margin-top: 30px;
+    }
+    .fn-mb-10{
+        margin-bottom:10px;
+    }
+    .fn-mb-20{
+        margin-bottom:20px;
+    }
+    .fn-mb-30{
+        margin-bottom:30px;
+    }
+
+    .fn-pa-20{
+        padding:20px;
+    }
+    .fn-pb-10{
+        padding-bottom: 10px;
+    }
+    .fn-pr-20{
+        padding-right: 20px;
+    }
+    .fn-mt-50{
+        margin-top:50px;
+    }
+
+    .textAlignCenter{
+        text-align: center;
+    }
+
+
+    //  用户须知模态框
+    .user-right {
+        height: 93% !important;
+        border-radius: 8px;
+        overflow: scroll;
+        //font-size: 1rem;
+        p {
+            text-align: left;
+            font-size: round(@fontSize-default*0.8);
+            padding-top: @gapSize-public;
+            color: @fontColor-default;
+
+            &:first-child:not(:last-child) {
+                padding-top: 0;
+            }
+        }
+        > div {
+            -webkit-transform: translate3d(0,0,0) !important;
+        }
+    }
+    //  用户须知模态框
+    .addSales-success {
+        height: 93% !important;
+        //border-radius: 8px;
+        overflow: scroll;
+        //font-size: 1rem;
+        p {
+            text-align: left;
+            font-size: round(@fontSize-default*0.8);
+            padding-top: @gapSize-public;
+            color: @fontColor-default;
+
+            &:first-child:not(:last-child) {
+                padding-top: 0;
+            }
+        }
+        > div {
+            -webkit-transform: translate3d(0,0,0) !important;
+        }
+    }
+
+    .step-wrap{
+        .stepBtn{
+            margin-top: 20px;
+            background-color: #ee4037;
+            border:1px solid #ee4037;
+        }
+        .am-button-active{
+            background-color: #ec7771;
+            border:1px solid #ec7771;
+        }
+        .am-button.am-button-disabled, .am-button-primary.am-button-disabled, .am-button-ghost.am-button-disabled, .am-button-warning.am-button-disabled{
+            background-color: #ddd;
+            border:1px solid #ddd;
+        }
+        .smsCode{
+            height: 44px;
+            line-height: 44px;
+            background-color: #fdccc8;
+            border: 1px solid #fdccc8;
+            color: #f0655e;
+        }
+    }
+
+}
+
+

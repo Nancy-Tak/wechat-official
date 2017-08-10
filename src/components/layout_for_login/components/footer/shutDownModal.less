@@ -1,0 +1,111 @@
+.shutDownModal {
+    position: fixed;
+    overflow: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    z-index: 998;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.6);
+    // animation-name: fadeOut;
+    // animation-duration: 0.3s;
+    // animation-timing-function: ease;
+    // animation-delay: 0;
+    // animation-fill-mode: both;
+
+    @shutDownBtnSize: 180px;
+
+    > div {
+        margin: 100px;
+        background-color: #fff;
+        border-radius: 50%;
+        width: @shutDownBtnSize;
+        height: @shutDownBtnSize;
+        position: relative;
+
+        @media only screen and (max-width: 1024px) {
+          width: @shutDownBtnSize/2;
+          height: @shutDownBtnSize/2;
+        }
+
+        .icon {
+            width: @shutDownBtnSize*0.6;
+            height: @shutDownBtnSize*0.6;
+            color: #999;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+
+            @media only screen and (max-width: 1024px) {
+              width: (@shutDownBtnSize*0.6)/2;
+              height: (@shutDownBtnSize*0.6)/2;
+            }
+        }
+
+        > h4 {
+            width: 100%;
+            position: absolute;
+            top: @shutDownBtnSize*0.6;
+            left: 0;
+            font-size: (@shutDownBtnSize*0.6)/1.6;
+            color: #fff;
+            text-align: center;
+            font-weight: 500;
+
+            @media only screen and (max-width: 1024px) {
+              top: (@shutDownBtnSize*0.6)/2;
+              font-size: (@shutDownBtnSize*0.6)/3;
+            }
+        }
+
+        &:active {
+            box-shadow: 0 0 100px 0 rgba(53,224,255,1);
+
+            .icon {
+                color: #35e0ff;
+            }
+        }
+    }
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+    }
+}
+
+.visible,
+.disible {
+    animation-duration: 0.3s;
+    animation-timing-function: ease;
+    animation-delay: 0;
+    animation-fill-mode: both;
+}
+
+.visible {
+    display: flex;
+    animation-name: fadeIn;
+}
+
+.disible {
+    animation-name: fadeOut;
+}

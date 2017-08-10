@@ -2,15 +2,182 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6215bec-cc54-4112-ac7b-138a3b8cd2b2" name="默认" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack/constants.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack/devserver.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack/loaders.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack/plugins.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack/webpack.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/alertBg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/bill-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/bill-icon2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/cobg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/code.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/companyPlatform-banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/drop-up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/eLogo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/fujian.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/icon-in.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/icon-out.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/icon-questionTip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/iconClose.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/indexImg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/mask.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/noteBg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/noteOperate.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/noteQR.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/pay_border.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/pay_fail.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/pay_success.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/qrcode-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/rcode.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/recBg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/resultTipsShow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/share.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/share2s.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/shares.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/sharestep3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/shop-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/shou.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/storePng.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/sucessG.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/tipsLogo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/titleBG.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/titleBG2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/titleBGpng.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/u9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/images/zhifu-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companyPlatform/qrCode/tx.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companyPlatform/salesManagement/tx.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companyPlatform/storeManagement/tx.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/less/global.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/less/variable.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/svg/account.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/svg/lock.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/svg/logout.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/svg/question.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/svg/refresh.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/svg/setting.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/svg/shutdown.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/svg/user.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/ToolTip/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/ToolTip/index.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/ToolTip/placements.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/alert/alert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/alert/alert.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/infoDisplay/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/infoDisplay/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/layout_for_login/components/footer/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/layout_for_login/components/footer/shutDownModal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/layout_for_login/components/footer/shutDownModal.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/layout_for_login/components/footer/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/layout_for_login/components/header/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/layout_for_login/components/header/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/layout_for_login/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/layout_for_login/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/entry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/404/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/accountManage/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/accountManage/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/activate/activate.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/activate/activateAssistant.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/activate/getShopList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/activate/getShopOpenID.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/activate/searchShopList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/activate/shopList.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/activate/success.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/activate/success.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/activate/verification.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/activate/verification.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/addStores/balances/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/addStores/balances/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/addStores/connectInfo/getCode/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/addStores/connectInfo/getCode/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/addStores/connectInfo/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/addStores/connectInfo/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/addStores/resultPage/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/addStores/resultPage/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/addStores/shopBasicInfo/addBusinessAdd/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/addStores/shopBasicInfo/addBusinessAdd/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/addStores/shopBasicInfo/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/addStores/shopBasicInfo/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/app/App.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/authorize/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/authorize/index2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/authorize/jump.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/cashierCenter/accountManage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/cashierCenter/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/cashierCenter/payError.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/cashierCenter/payNote.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/cashierCenter/paySuccess.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/cashierCenter/payerSelect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/cashierCenter/setAmount.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/cashierCenter/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/cashierCenter/tradeComfirm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companyLogin/accountLoginForm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companyLogin/accountLoginForm.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companyLogin/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companyLogin/phoneLoginForm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companyLogin/phoneLoginForm.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companyLogin/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companyPlatform/addResultPage/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companyPlatform/addResultPage/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companyPlatform/addSalesMan/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companyPlatform/addSalesMan/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companyPlatform/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companyPlatform/myBills/billReports/dayBills.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companyPlatform/myBills/billReports/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companyPlatform/myBills/billReports/monthBills.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companyPlatform/myBills/billReports/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companyPlatform/myBills/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companyPlatform/myBills/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companyPlatform/myQrcode/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companyPlatform/myQrcode/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companyPlatform/qrCode/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companyPlatform/qrCode/myQrcode/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companyPlatform/qrCode/myQrcode/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companyPlatform/qrCode/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companyPlatform/salesDetail/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companyPlatform/salesDetail/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companyPlatform/salesManagement/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companyPlatform/salesManagement/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companyPlatform/sharePage/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companyPlatform/sharePage/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companyPlatform/storeManagement/storeManagement.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companyPlatform/storeManagement/storeManagement.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companyPlatform/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companySettleIn/balances/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companySettleIn/balances/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companySettleIn/connectInfo/getCode/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companySettleIn/connectInfo/getCode/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companySettleIn/connectInfo/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companySettleIn/connectInfo/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companySettleIn/enterpriseBasicInfo/addBusinessAdd/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companySettleIn/enterpriseBasicInfo/addBusinessAdd/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companySettleIn/enterpriseBasicInfo/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companySettleIn/enterpriseBasicInfo/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companySettleIn/resultPage/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companySettleIn/resultPage/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companySettleIn/supplementPhone/getCode/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companySettleIn/supplementPhone/getCode/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companySettleIn/supplementPhone/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companySettleIn/supplementPhone/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companySettleIn/supplementUser/getCode/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companySettleIn/supplementUser/getCode/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companySettleIn/supplementUser/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/companySettleIn/supplementUser/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/redireact/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/shopsDetail/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/shopsDetail/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/routes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/store.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/axios.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/constants.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/renderUtils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/ruleType.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/session.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/tools.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/utils/utfToBase64.js" />
     </list>
     <ignored path="wechat-offical.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,8 +230,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpack/test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/404/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -153,6 +330,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wechat-offical" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wechat-offical" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -170,6 +361,7 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -191,12 +383,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1502341337051</updated>
-      <workItem from="1502341338146" duration="289000" />
+      <workItem from="1502341338146" duration="336000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="289000" />
+    <option name="totallyTimeSpent" value="336000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1979" y="90" width="1756" height="926" extended-state="0" />
@@ -269,6 +461,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webpack/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/404/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />

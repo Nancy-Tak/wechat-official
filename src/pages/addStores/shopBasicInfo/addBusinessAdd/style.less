@@ -1,0 +1,46 @@
+@import '../../../../assets/less/variable';
+.container {
+  padding: 16px 32px;
+}
+.header {
+  font-size: 18px;
+  color: #666666;
+  background-color: #EFEFF4;
+}
+.btn-container .btn {
+  margin: 0.16rem 0.3rem ;
+  border-radius:@btn-radius;
+}
+
+:global(.ucs-input) {
+    border: 1PX solid #ddd !important;
+    border-radius: 5PX !important;
+}
+
+:global(.ucs-input)::after {
+    border-bottom: 0 !important;
+}
+
+.form {
+    display: flex;
+    aligin-items: center;
+    //padding: 32px 64px;
+}
+
+.flex-auto {
+    flex: 1 1 auto;
+    min-width: 0; /* 1 */
+    min-height: 0; /* 1 */
+}
+
+.picker {
+    margin-left: 30px;
+    width: 700px;
+    line-height: 90px;
+    height: 90px;
+}
+
+.search-btn {
+    margin-left: 30px;
+    width: 200px;
+}

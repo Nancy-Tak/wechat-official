@@ -1,0 +1,66 @@
+@import '../../../../assets/less/variable';
+
+.footer-wrap {
+  position: absolute;
+  height: @height-footer;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  @media only screen and (max-width: 1024px) {
+    height: @height-footer/2;
+  }
+}
+
+.footer {
+  width: @widthApp;
+  height: 100%;
+  line-height: 0;
+  font-size: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.left,
+.right {
+  order: 1;
+  flex: 1 1 auto;
+}
+
+.right {
+  text-align: left;
+
+  .tel {
+    font-size: 30px;
+    vertical-align: middle;
+    padding-left: 30px;
+    color: #999;
+  }
+}
+
+.left {
+  text-align: right;
+  font-size: 35px;
+  line-height: auto;
+  color: #8e8781;
+
+  /* @media only screen and (max-width: 1024px) { */
+    /* font-size: 50px/2; */
+  /* } */
+}
+
+.shutdown {
+  vertical-align: middle;
+  /* width: 100px; */
+  /* height: 100px; */
+  width: 80px;
+  height: 80px;
+
+  @media only screen and (max-width: 1024px) {
+    width: 140px/2;
+    height: 140px/2;
+  }
+}

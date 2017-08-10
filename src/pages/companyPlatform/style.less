@@ -1,0 +1,320 @@
+@import '../../assets/less/variable';
+:global {
+
+    @WidthStandard-OnRightBox: 160px;
+    .Referral{
+        font-size: 28px;
+        padding-left: 30px;
+        line-height: 50px;
+    }
+    .standard-flex-style-on-right-box {
+        display: flex;
+        flex-direction: row;
+        flex-wrap:  nowrap;
+        align-items: center;
+        align-content: center;
+    }
+
+    .companyPlatform {
+        font-size: 34px;
+        .fs21 {
+            font-size: 24px !important;
+        }
+        .fs27 {
+            font-size: 32px !important;
+            font-weight: bold;
+        }
+        .fs22 {
+            font-size: 22px !important;
+        }
+        .popSh{
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            color: #000;
+            div{
+            width: 80%;
+            height: 200px;
+            background: #fff;
+            border-radius: 10px;
+            text-align: center;
+            margin: 400px auto;
+            padding-top: 30px;
+                p{
+                    text-align: center;
+                    width: 80%;
+                    margin: 0px auto;
+                }
+            }
+
+            a{
+                display: block;
+                margin: 20px auto;
+                background: red;
+                width: 200px;
+                height: 50px;
+                line-height: 50px;
+                color: #fff;
+                border-radius:@btn-radius;
+            }
+        }
+        .banner {
+            height: 200px;
+            background: url("../../assets/images/companyPlatform-banner.jpg") transparent center center repeat;
+            background-size: 100% 100%;
+            .companyName-wrap {
+                padding-top: 40px;
+                padding-left: 38px;
+                .companyName {
+                    color: #ffffff;
+                    font-weight: bold;
+                }
+                .companyStatus {
+                    display: inline-block;
+                    height: 36px;
+                    line-height: 36px;
+                    padding: 0px 30px;
+                    border-radius: 18px;
+                    background-color: #ac250e;
+                    margin-left: 20px;
+                    color: #eb8d4e;
+                    vertical-align: middle;
+                }
+            }
+            .btn-account {
+                padding-left: 38px;
+                padding-top: 15px;
+                span {
+                    color: #fff;
+                    font-weight: 200;
+                    font-size: 32px;
+                }
+            }
+        }
+        .content {
+            .content-item-bill {
+                padding: 30px;
+                background-color: #fff;
+                //display: flex;
+                //flex-direction: row;
+                //flex-wrap:  nowrap;
+                //align-items: center;
+                //align-content: center;
+                //text-align: center;
+                //font-size: 0;
+                //line-height: 0;
+
+                .left {
+                    //flex: 1;
+                    //margin: 35px 0;
+                   // border-right: 1px solid #bfbfbf;
+                    font-size: 32px;
+                    display: flex;
+                    //flex-direction: row;
+                    text-align: center;
+                    font-size: 0;
+                    line-height: 0;
+
+                    :nth-child(1) {
+                        -moz-box-flex: 2;
+                        -webkit-box-flex: 2;
+                        box-flex: 2;
+
+                        -moz-flex: 2;
+                        -webkit-flex: 2;
+                        flex: 2;
+                        padding: 0 0 0 20px;
+                    }
+                    :nth-child(2) {
+                        -moz-box-flex: 2;
+                        -webkit-box-flex: 2;
+                        box-flex: 2;
+
+                        -moz-flex: 2;
+                        -webkit-flex: 2;
+                        flex: 2;
+                        padding: 0 0 0 20px;
+                    }
+
+                    .amount {
+                        //display: inline-block;
+                        //width: 49.9%;
+                        //vertical-align: middle;
+                        border-right: 1px solid lighten(#999,30%);
+                        padding-left: 0;
+                        padding-right: 10px;
+                    }
+
+                    .count {
+                        padding-left: 40px;
+                    }
+
+                    .amount,
+                    .count {
+                        line-height: 1.4;
+                        display: inline-block;
+                        width: 49.9%;
+                        vertical-align: middle;
+                        font-size: 28px;
+                        text-align: left;
+
+                        > div {
+                            //padding-top: 10px;
+                            color: #999;
+                        }
+
+                        > div + div {
+                            font-size: 42px;
+                            font-weight:  bold;
+                            color: #333;
+                        }
+                    }
+                }
+                .right {
+                    width: @WidthStandard-OnRightBox;
+                    //height: 120px;
+                    //padding: 20px;
+                    //padding-left: 25px;
+                    margin-right: -25px;
+                    font-size: 24px;
+                    text-align: center;
+
+                    .icon-t {
+                        margin-top: 10px;
+                        color: #333333;
+                    }
+                }
+            }
+            .content-item-shop {
+                margin-top: 15px;
+                padding: 30px 0;
+                background-color: #ffffff;
+                font-size: 0;
+                line-height: 0;
+                text-align: center;
+                //display: flex;
+                //flex-direction: row;
+                //flex-wrap:  nowrap;
+                //align-items: center;
+                //align-content: center;
+                //justify-content: center;
+
+                .left {
+                    flex: 1;
+                    margin: 15px 0;
+                    border-right: 1px solid #bfbfbf;
+                    font-size: 28px;
+                    :nth-child(1) {
+                        color: #666666;
+                    }
+                    :nth-child(2) {
+                        color: #424242;
+                        padding-top: 15px;
+                    }
+                }
+                .right {
+
+                  //flex: 1;
+                  //max-width: 32%;
+                    display: inline-block;
+                    width: 33%;
+                    height: 120px;
+                    color: #333333;
+                    //padding: 20px;
+                    //padding-left: 25px;
+                    //margin-right: -25px;
+                    //margin: 0 20px;
+                    font-size: 28px;
+                    text-align: center;
+                    .item-icon {
+                        width: 80px;
+                        height: 80px;
+                        background: url("../../assets/images/shop-icon.png") transparent center center no-repeat;
+                        background-size: 100% auto;
+                        margin: 0 auto;
+                    }
+                     .item-icon2 {
+                        width: 80px;
+                        height: 80px;
+                        background: url("../../assets/images/bill-icon.png") transparent center center no-repeat;
+                        background-size: 100% auto;
+                        margin: 0 auto;
+                    }
+                     .item-icon3 {
+                        width: 140px;
+                        height: 80px;
+                        background: url("../../assets/images/bill-icon2.png") transparent 30px center no-repeat;
+                        background-size: 75% auto;
+                        margin: 0 auto;
+                    }
+                    .icon-t {
+                        margin-top: 30px;
+                        color: #333333;
+                    }
+                }
+            }
+            .content-item-qrcode {
+                //margin-top: 15px;
+                //padding-top: 30px;
+                background-color: #fff;
+                //display: flex;
+                flex-direction: row;
+
+                .indexImg {
+                    width: 100%;
+                    display: block;
+                }
+                //div{
+                //     width: 100%;
+                //        height: 293px;
+                //        background: url("../../assets/images/indexImg.jpg") transparent center center no-repeat;
+                //        background-size:100%;
+                //}
+                .left {
+                    flex: 1;
+                    //margin: 15px 0;
+                    // margin-top: 15px;
+                    // margin-bottom: 5px;
+                    border-right: 1px solid #bfbfbf;
+                    font-size: 28px;
+                    // :nth-child(1) {
+                    //     color: #666666;
+                    // }
+                    :nth-child(2) {
+                        width: 80%;
+                        height: 79px;
+                        background: url("../../assets/images/zhifu-logo.png") transparent center center no-repeat;
+                        background-size: 100% auto;
+                    }
+                }
+                .right {
+                    width: @WidthStandard-OnRightBox;
+                    margin-right: -25px;
+                    font-size: 24px;
+                    text-align: center;
+
+                    .item-icon {
+                        width: 80px;
+                        height: 80px;
+                        background: url("../../assets/images/qrcode-icon.png") transparent center center no-repeat;
+                        background-size: 100% auto;
+                        margin: 0 auto;
+                    }
+                    .icon-t {
+                        margin-top: 10px;
+                        color: #333333;
+                    }
+                }
+            }
+
+            .content-item-qrcode-tips {
+                margin-top: 15px;
+                padding: 30px;
+                //display: flex;
+                //flex-direction: row;
+                background-color: #ffffff;
+            }
+        }
+    }
+}

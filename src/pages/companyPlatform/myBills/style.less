@@ -1,0 +1,114 @@
+.mybills{
+    .top{
+        font-size:30px;
+        height: 70px;
+        line-height: 70px;
+        padding: 0 20px;
+        :nth-child(1){
+            color: #333333;
+            //font-size: 26px;
+            font-size: 30px !important;
+        }
+        :nth-child(3){
+            float: right;
+            color: #666666;
+            line-height: 70px;
+        }
+        .icon-right{
+            float: right;
+            height: 70px;
+        }
+    }
+    .content{
+        .bill-item{
+            padding: 23px 20px;
+            margin-bottom:2px;
+            //display: flex;
+            //flex-direction: row;
+            background-color: #ffffff;
+            .time{
+                display: inline-block;
+                vertical-align: middle;
+                width: 70px;
+                text-align: center ;
+                color: #999999;
+                //font-size: 22px;
+                font-size: 28px !important;
+                padding-top: 5px;
+            }
+            .icon{
+                //width: 70px;
+                width: 90px;
+                height: 90px;
+                margin: 0 10px;
+                display: inline-block;
+                vertical-align: middle;
+            }
+            .in{
+                background: url("../../../assets/images/icon-in.png") center no-repeat;
+                background-size: 83% auto;
+            }
+            .out{
+                background: url("../../../assets/images/icon-out.png") center no-repeat;
+                background-size: 83% auto;
+            }
+            .info{
+                max-width: 65%;
+                display: inline-block;
+                vertical-align: middle;
+                //flex: 1;
+                :nth-child(1){
+                    //font-size: 28px;
+                    font-size: 32px !important;
+                }
+                :nth-child(2){
+                    color: #333333;
+                    //font-size: 22px;
+                    font-size: 28px !important;
+                }
+                .green{
+                    color: #22ac38;
+                }
+                .red{
+                    color: #ee4036;
+                }
+            }
+        }
+    }
+}
+
+.fn-ma-15{
+    margin:15px;
+
+}
+
+.fn-pa-20{
+    padding:20px;
+}
+
+.yearTip{
+    border-bottom: 1px solid #cccccc;
+    position: relative;
+    height: 15px;
+    margin: 40px 0;
+    span{
+        position: absolute;
+        width: 160px;
+        text-align: center;
+        left: 50%;
+        top: -5px;
+        margin-left:-80px;
+        background-color: #EFEFF4;
+        font-size: 32px;
+        display: inline-block;
+    }
+}
+.silk-listcontrol-text{
+    //font-size: 20px;
+    font-size: 26px !important;
+}
+.noData{
+    text-align: center;
+    padding: 10px;
+    font-size: 21px;
+}

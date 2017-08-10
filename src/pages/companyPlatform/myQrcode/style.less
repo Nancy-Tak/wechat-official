@@ -1,0 +1,81 @@
+
+.flex {
+
+    display: -moz-box;
+    display: -webkit-box;
+    display: box;
+
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+}
+.flex1 {
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+
+    -moz-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+}
+.flex2 {
+    -moz-box-flex: 2;
+    -webkit-box-flex: 2;
+    box-flex: 2;
+
+    -moz-flex: 2;
+    -webkit-flex: 2;
+    flex: 2;
+}
+.flex3 {
+    -moz-box-flex: 3;
+    -webkit-box-flex: 3;
+    box-flex: 3;
+
+    -moz-flex: 3;
+    -webkit-flex: 3;
+    flex: 3;
+}
+
+:global {
+
+    .myQrcode {
+        background: #fff;
+        width: 100%;
+        height: 100%;
+        h2 {
+            padding-top: 100px;
+            text-align: center;
+            color: #333;
+            span {
+                color: #666;
+            }
+        }
+        p {
+            text-align: center;
+            color: #333;
+        }
+        .code {
+            width: 360px;
+            height: 360px;
+            border: 20px solid #fff;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            -webkit-box-shadow: 0 0 0 20px #ee4749;
+            box-shadow: 0 0 0 20px #ee4749;
+            margin: 46px auto;
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+    .className {
+        }
+    .fs32 {
+        font-size: 32px !important;
+
+    }
+
+}

@@ -1,0 +1,730 @@
+@charset "utf-8";
+@vic-color: #666666;//灰色字体
+@main-color: #333333;//黑色字体
+@ColorMain-v123: rgba(255,112,114,1);
+@HeadShot-Size: 100px;
+:global{
+	.setMoney{
+		//填写金额页面
+		.money-text{
+			padding: 40px 0;
+      .am-list-item .am-input-extra{
+        color:#666666;
+        font-size: 50px;
+      }
+      .am-list-item.am-input-item{
+        height: 120px;
+      }
+      .am-list-item .am-input-control input{
+        font-size: 50px !important;
+        color:#fe0108;
+      }
+		}
+		.gatherPerson{
+			.am-list-content{
+				color:@vic-color;
+				font-size: 32px;
+			}
+			.am-list-extra{
+				color:@main-color;
+			}
+		}
+		.remarks{
+			padding-left: .3rem;
+			font-size: 32px;
+			color:@vic-color;
+		}
+		.textArea{
+			padding-bottom: 30px;
+			.am-textarea-control{
+				padding: .2rem .25rem;
+				border:1px solid #cecece;
+				border-radius: 10px;
+				textarea {
+					font-size: 30px;
+				}
+			}
+			.am-textarea-count{
+				display: none;
+			}
+		}
+		.note-text{
+			color:@vic-color;
+			font-size: 25px;
+			padding-left: .3rem;
+		}
+		.money-btn{
+			margin-top: 60px;
+			padding: 0 .3rem;
+			.am-button-primary{
+				background-color: #ee4036;
+				border-radius: 50px;
+				border-color: #ee4036;
+			}
+			.am-button.am-button-disabled, .am-button-primary.am-button-disabled, .am-button-ghost.am-button-disabled, .am-button-warning.am-button-disabled{
+				color: #bbb;
+                background-color: #ddd;
+			}
+		}
+
+
+		//选择收款人页面
+		.am-search{
+			background-color:#f8f8f9;
+			width:100%;
+			.am-search-input {
+               font-size: 30px;
+               border: 1px solid #eeeeee;
+               border-radius: 40px;
+               .am-search-clear{
+                    right: 0.24rem !important;
+                    top: 0.13rem !important;
+                    //display: none !important;
+               }
+			}
+		}
+		.am-flexbox-item{
+			overflow-y: hidden;
+            .person-list{
+            	height: 100%;
+            	display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                flex-direction: column;
+                .am-list-header {
+                    font-size: 32px;
+                }
+                .am-list-body{
+                	-webkit-box-flex: 1;
+                    -ms-flex: 1;
+                    flex: 1;
+                    overflow-y: auto;
+                }
+            }
+		}
+	    .am-flexbox .am-flexbox-item{
+	    	margin-left: 0;
+	    	width: 100%;
+	    }
+	}
+
+
+	//父级高度变成100%
+	#root{
+		height: 100%;
+	}
+	.page{
+		height: 100%;
+	}
+	.setMoney{
+		height: 100%;
+		.flex-column{
+			//height: 100%;
+		}
+        .list {
+            padding: 0;
+            background: #ffffff;
+            margin: 0 !important;
+            li {
+                padding: 20px 20px !important;
+                border-bottom: 1px solid #f0efed;
+                color: #666666;
+                line-height: 50px;
+                font-size: 34px;
+            }
+            p {
+
+            }
+        }
+        .flex1 {
+            -moz-box-flex: 1;
+            -webkit-box-flex: 1;
+            box-flex: 1;
+
+            -moz-flex: 1;
+            -webkit-flex: 1;
+            flex: 1;
+        }
+	}
+    
+    .selectPerson{
+        font-size: 30px;
+        padding:20px;
+    }
+}
+
+.header-v123 {
+    position: relative;
+    padding: 30px 60px 0 30px;
+    background-color: @ColorMain-v123;
+
+    > .setting {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    }
+}
+
+.user {
+    position: relative;
+    padding-left: @HeadShot-Size + 20px;
+    padding-bottom: @HeadShot-Size/2;
+    min-height: @HeadShot-Size;
+    color: #fff;
+
+    .headshot {
+        width: @HeadShot-Size;
+        height: @HeadShot-Size;
+        border-radius: 50%;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        box-shadow: 0 0 10px 0 rgba(0,0,0,.3);
+    }
+
+    > h2,p {
+        margin: 0;
+        padding: 0;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    > h2 {
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    > p {
+        font-size: 28px;
+    }
+}
+
+
+.count {
+    background-color: darken(@ColorMain-v123,5%);
+    padding: 20px 0;
+    margin: 0 -60px 0 -30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+
+    > div {
+        order: 1;
+        flex: 1 1 auto;
+        text-align: center;
+        color: #fff;
+        position: relative;
+        max-width: 50%;
+        padding: 0 20px;
+
+        &:first-child::after {
+            content: '';
+            width: 1px;
+            height: 70%;
+            background-color: #fff;
+            position: absolute;
+            top: 50%;
+            right: -1px/2;
+            transform: translate(0,-50%);
+        }
+
+        > h2,p {
+            margin: 0;
+            padding: 0;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        > h2 {
+            font-size: 40px;
+            font-weight: 500;
+        }
+
+        > p {
+            font-size: 26px;
+        }
+    }
+}
+
+.rec-wrap {
+    background-color: rgba(255,255,255,1);
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+.rec {
+    background: url('ASSETS/images/recBg.png') center center no-repeat;
+    background-size: 100% auto;
+    height: 260px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.record {
+    background-color: rgba(243,243,243,1);
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+
+    &::before {
+        content: '交易流水';
+        font-size: 32px;
+    }
+
+    .refresh {
+
+    }
+}
+:global{
+    .mybills{
+        .top{
+            height: 70px;
+            line-height: 70px;
+            padding: 0 20px;
+            :nth-child(1){
+                color: #333333;
+                font-size: 26px;
+            }
+            :nth-child(3){
+                float: right;
+                color: #666666;
+                line-height: 70px;
+            }
+            .icon-right{
+                float: right;
+                height: 70px;
+            }
+        }
+        .first-highLight{
+            &>div:first-child{
+                .bill-item{
+                    background-color: #fefce4;
+                }
+            }
+        }
+        .content{
+
+            .bill-item{
+                padding: 23px 20px;
+                margin-bottom:2px;
+                display: flex;
+                flex-direction: row;
+                background-color: #ffffff;
+                .time{
+                    width: 70px;
+                    text-align: center ;
+                    color: #999999;
+                    font-size: 22px;
+                    padding-top: 5px;
+                }
+                .icon{
+                    width: 70px;
+                    margin: 0 10px;
+                }
+                .in{
+                    //background: url("../../../assets/images/icon-in.png") center no-repeat;
+                    background-size: 83% auto;
+                }
+                .out{
+                    //background: url("../../../assets/images/icon-out.png") center no-repeat;
+                    background-size: 83% auto;
+                }
+                .info{
+                    flex: 1;
+                    :nth-child(1){
+                        font-size: 28px;
+                    }
+                    :nth-child(2){
+                        color: #333333;
+                        font-size: 22px;
+                    }
+                    .green{
+                        color: #22ac38;
+                    }
+                    .red{
+                        color: #ee4036;
+                    }
+                }
+            }
+        }
+    }
+}
+
+:global{
+    .yearTip{
+        border-bottom: 1px solid #cccccc;
+        position: relative;
+        height: 15px;
+        margin: 40px 0;
+        span{
+            position: absolute;
+            width: 160px;
+            text-align: center;
+            left: 50%;
+            top: -5px;
+            margin-left:-80px;
+            background-color: #EFEFF4;
+            font-size: 32px;
+            display: inline-block;
+        }
+    }
+    .silk-listcontrol-text{
+        font-size: 20px;
+    }
+    .noData{
+        text-align: center;
+        padding: 10px;
+        font-size: 21px;
+    }
+}
+:global{
+    .cashierAccountManage{
+        ._item{
+            background-color: white;
+            border-bottom: 1px solid #e6e6e6;
+            height: 90px;
+            width: 100%;
+            line-height: 90px;
+            padding: 0 33px;
+            .label{
+                float: left;
+                font-size: 30px;
+                color: #666666;
+            }
+            .value{
+                float: right;
+                font-size: 30px;
+                color: #333333;
+                width: 400px;
+                text-align: right;
+                white-space: nowrap;
+                text-overflow : ellipsis;
+                overflow:hidden;
+            }
+        }
+        .btn-box{
+            padding: 0 33px;
+        }
+        .btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 80px;
+            line-height: 80px;
+            margin: 60px auto;
+            border-radius: 200px;
+            border: 1px solid #f00;
+            font-size: 35px;
+            letter-spacing: 2px;
+            text-align: center;
+            &.btnGoCenter{
+                margin-top: 120px;
+                background: #f00;
+                color: #fff;
+            }
+            &.btnExit{
+                color: #f00;
+                background: #fff;
+            }
+        }
+    }
+    .am-search-input .am-search-synthetic-ph{
+        width: 100% !important;
+        text-align: center;
+        &.left{
+            text-align: left;
+        }
+    }
+    .am-search-input .am-search-synthetic-ph-icon{
+        text-align: left;
+    }
+}
+
+.trade-confirm {
+  margin: 20px;
+  background: url('ASSETS/images/cobg.png') rgba(255,255,255,1) top center repeat-x;
+  padding-top: 200px;
+  padding-bottom: 100px;
+  text-align: center;
+  position: relative;
+    .gatherMess-box{
+        padding: 0 70px;
+        > h2,p {
+            font-size: 30px;
+            margin: 0 auto;
+            padding: 0;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            text-align: left;
+            color:#333333;
+        }
+
+        > h2 {
+            max-width: 90%;
+          font-size: 35px;
+          font-weight: 500;
+          text-align: center;
+        }
+        .moneyPay{
+            font-size: 30px;
+            color:#666666;
+            font-weight: normal;
+            margin-bottom: 10px;
+        }
+        > p {
+            margin-top: 10px;
+          max-width: 90%;
+          vertical-align: top;
+          text-align: center;
+          > b {
+            font-size: 60px;
+            color:#333333;
+            &::before {
+              content:'￥';
+              font-size: 26px;
+            }
+          }
+        }
+    }
+
+
+    .rcode {
+      display: block;
+      width: 50%;
+      max-width: 362px;
+      min-height: 300px;
+      margin: 50px auto 0 auto;
+      border: 2px solid rgba(0,0,0,0.3);
+      border-radius: 20px;
+      padding:10px;
+    }
+
+    .notice {
+      display: block;
+      padding: 20px 0;
+      font-size: 30px;
+    }
+    .refreshNote {
+        display: block;
+        padding: 20px 0;
+        font-size: 24px;
+        .keyNote{
+            color:#00b7ee;
+            padding: 0px 10px;
+        }
+    }
+    .bottom {
+      background: url('ASSETS/images/zhifu-logo.png') rgba(249,249,249,1) center center no-repeat;
+      height: 80px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+    }
+
+
+}
+
+/*支付结果页(成功/失败)*/
+.pay-result-container{
+    padding: 0 30px;
+    .main {
+        padding: 100px 30px 90px 30px;
+        background: #fff;
+        margin: 0 auto;
+        min-height: 835px;
+        text-align: center;
+        position: relative;
+        &:after{
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 8px;
+            bottom: -8px;
+            left: 0;
+            background-image: url('../../assets/images/pay_border.png');
+            background-size: auto 100%;
+            background-repeat: repeat-x;
+        }
+    }
+    .icon{
+        width: 131px;
+        height: 131px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .status{
+        font-size: 45px;
+        color: #000;
+        margin-top: 35px;
+        margin-bottom: 75px;
+    }
+    .info{
+        padding: 10px 15px;
+        text-align: left;
+        color: #666;
+        font-size: 32px;
+        border: 1px dashed #b2b2b2;
+        border-left: none;
+        border-right: none;
+        .row{
+            margin: 0;
+            padding: 10px 0;
+            &.newline{
+                word-wrap:break-word;
+                word-break:break-all;
+            }
+        }
+    }
+
+    .other{
+        margin-top:75px;
+        .item-name {
+            font-size: 30px;
+            color: #999;
+        }
+        .price{
+            margin-top: 15px;
+            font-size: 62px;
+            color: #333;
+            &:before{
+                content: '￥';
+                font-size:50%;
+                display: inline-block;
+                vertical-align: baseline;
+            }
+        }
+    }
+    .button{
+        align-items: center;
+        justify-content: center;
+        font-size: 38px;
+        color: #fff;
+        border: none;
+        border-radius: 200px;
+        margin-top: 60px;
+        width: 100%;
+        height: 80px;
+        line-height: 80px;
+        cursor: pointer;
+        text-align: center !important;
+        margin-bottom: 60px;
+    }
+	&.success{
+        .icon{
+            background-image: url('../../assets/images/pay_success.png');
+        }
+        .button{
+            background: #ee4036;
+        }
+    }
+    &.error{
+        .icon{
+            background-image: url('../../assets/images/pay_fail.png');
+        }
+        .button{
+            background:#ee4036;
+        }
+        .info{
+            color: #666;
+            text-align: center;
+            .reason{
+                color: #f00;
+
+            }
+            .tips{
+
+            }
+        }
+    }
+}
+
+
+.example{
+    word-wrap: break-word;
+    word-break: normal;
+    font-size: 30px;
+    text-align: left;
+}
+//开启收款通知
+.pay-Note-wrap{
+    overflow-y: auto;
+    height: 100%;
+    background: url("ASSETS/images/noteBg.png") no-repeat center center;
+    background-size: 100% 100%;
+    color:#674543;
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+.note-title{
+    margin: 0;
+    padding: 60px 0 20px;
+    font-size: 38px;
+    text-align: center;
+}
+.note-vice-title{
+    margin: 0;
+    text-align: center;
+    font-weight: normal;
+}
+.note-item{
+    .note-item-text{
+        text-align: center;
+        margin: 60px 0 40px;
+        .step-order{
+            text-align: center;
+            background-color:#fd5658;
+            border-radius: 100%;
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            color:#ffd034;
+            line-height: 30px;
+            margin-right: 10px;
+            font-size: 22px;
+            vertical-align: text-bottom;
+        }
+    }
+    .note-QR{
+        text-align: center;
+        img{
+            display: inline-block;
+            width: 250px;
+        }
+    }
+    .note-step{
+        text-align: center;
+        img{
+            display: inline-block;
+            width: 360px;
+        }
+    }
+}
+.QR-name{
+    font-weight: bold;
+}
+.note-item-text{
+
+}
+.step-order{
+
+}
+.note-QR{
+
+}
+.note-step{
+
+}
